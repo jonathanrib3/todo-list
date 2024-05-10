@@ -64,6 +64,10 @@ main {
   width: 100%;
 }
 
+.add-todo-form {
+  margin-left: 10px;
+}
+
 .todo-list-container {
   overflow-wrap: break-word;
 }
@@ -121,12 +125,10 @@ ul {
 }
 
 .expand-description-container {
-
   width: 100%;
   background: rgb(51,51,51);
   background: linear-gradient(180deg, rgba(51,51,51,0.7637255585828081) 0%, rgba(102,102,102,0.45280118883490894) 38%, rgba(126,126,126,1) 100%); 
   border-radius: 0 0 10px 10px;
-  backdrop-filter: blur(100px);
 }
 
 .expand-description-logo {
@@ -137,4 +139,11 @@ ul {
 
 .expand-description-logo svg {
   font-weight: 700;
+}
+
+.idk {
+  background-color: #000000;
+  opacity: 0.2;
+  width: 100vw;
+  height: 100vh;
 }

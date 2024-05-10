@@ -28,6 +28,7 @@ function App() {
   return (
     <main>
       <div className='add-todo-form-container'>
+        <div className='add-todo-form'>
           <label>Title</label>
           <br />
           <input className='add-todo-input' value={todoTitleText} onChange={(event) => setTodoTitleText(event.target.value)}></input>
@@ -37,6 +38,7 @@ function App() {
           <textarea className='add-todo-input' maxLength={150} value={todoDescriptionText} onChange={(event) => setTodoDescriptionText(event.target.value)}></textarea>
           <br />
           <button className='add-todo-btn' onClick={() => addTodo({ title: todoTitleText, description: todoDescriptionText })}>Add Todo</button>
+        </div>
       </div>
 
       <div className="todo-list-container">
